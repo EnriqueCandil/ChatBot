@@ -7166,11 +7166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CHATBOT\\EchoBot2\\EchoBot2.csproj",
+      "projectUniqueName": "E:\\ProyectoDnD\\ChatBot\\EchoBot2\\EchoBot2.csproj",
       "projectName": "EchoBot2",
-      "projectPath": "E:\\CHATBOT\\EchoBot2\\EchoBot2.csproj",
+      "projectPath": "E:\\ProyectoDnD\\ChatBot\\EchoBot2\\EchoBot2.csproj",
       "packagesPath": "C:\\Users\\ecand\\.nuget\\packages\\",
-      "outputPath": "E:\\CHATBOT\\EchoBot2\\obj\\",
+      "outputPath": "E:\\ProyectoDnD\\ChatBot\\EchoBot2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ecand\\AppData\\Roaming\\NuGet\\NuGet.Config",
