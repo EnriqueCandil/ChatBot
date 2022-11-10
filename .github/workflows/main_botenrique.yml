@@ -23,7 +23,7 @@ jobs:
           include-prerelease: true
 
       - name: Build with dotnet
-        run: dotnet build E:\ProyectoDnD\ChatBot\EchoBot2\EchoBot2.sln
+        run: dotnet build E:/ProyectoDnD/ChatBot/EchoBot2/EchoBot2.sln
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/chatBotapp
