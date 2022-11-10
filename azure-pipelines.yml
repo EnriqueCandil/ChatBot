@@ -3,32 +3,57 @@
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
-trigger:
-- main
+name: Build and deploy ASP.Net Core app to Azure Web App - botEnrique
 
-pool:
-  vmImage: 'windows-latest'
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
-variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
+jobs:
+  build:
+    runs-on: windows-latest
 
-steps:
-- task: NuGetToolInstaller@1
+    steps:
+      - uses: actions/checkout@v2
 
-- task: NuGetCommand@2
-  inputs:
-    restoreSolution: '$(solution)'
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
+          include-prerelease: true
 
-- task: VSBuild@1
-  inputs:
-    solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+      - name: Build with dotnet
+        run: dotnet build
 
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+      - name: dotnet publish
+        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v2
+        with:
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/myapp
+
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v2
+        with:
+          name: .net-app
+
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: 'botEnrique'
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_563F639C30274AEB98732036199AC2CC }}
+          package: .
