@@ -23,7 +23,7 @@ jobs:
           include-prerelease: true
 
       - name: Ls command
-        run: ls
+        run: cd E:/ProyectoDnD/ChatBot/EchoBot2/
 
       - name: Build with dotnet
         run: dotnet build E:/ProyectoDnD/ChatBot/EchoBot2/
