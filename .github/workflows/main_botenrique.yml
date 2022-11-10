@@ -22,8 +22,11 @@ jobs:
           dotnet-version: '6.0.x'
           include-prerelease: true
 
+      - name: Ls command
+        run: ls
+
       - name: Build with dotnet
-        run: ls | dotnet build E:/ProyectoDnD/ChatBot/EchoBot2/
+        run: dotnet build E:/ProyectoDnD/ChatBot/EchoBot2/
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/chatBotapp
