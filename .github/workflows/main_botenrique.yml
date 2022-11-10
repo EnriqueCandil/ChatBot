@@ -22,9 +22,6 @@ jobs:
           dotnet-version: '6.0.x'
           include-prerelease: true
 
-      - name: Ls command
-        run: cd E:/ProyectoDnD/ChatBot/EchoBot2/
-
       - name: Build with dotnet
         run: dotnet build E:/ProyectoDnD/ChatBot/EchoBot2/
 
