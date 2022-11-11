@@ -1,0 +1,2 @@
+[config]
+SCM_SCRIPT_GENERATOR_ARGS=--aspNetCore "E:\ProyectoDnD\ChatBot\Echobot2\Echobot2.csproj"
