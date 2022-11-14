@@ -25,6 +25,9 @@ jobs:
       - name: Ls command
         run: ls
 
+      - name: Cd command
+        run: cd EchoBot2
+
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
