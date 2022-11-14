@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "plZAlB5gvGk1MlzotICGOd9N4ChlmV7CoVImPLKXhkM=",
+  "Hash": "0X3GPxBNTL5AlDZCk/Jz/V9XjbBMzSowu9T8ONkgTIY=",
   "Source": "EchoBot2",
   "BasePath": "_content/EchoBot2",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "EchoBot2\\wwwroot",
       "Source": "EchoBot2",
-      "ContentRoot": "e:\\ProyectoDnD\\ChatBot\\EchoBot2\\wwwroot\\",
+      "ContentRoot": "E:\\ProyectoDnD\\ChatBot\\EchoBot2\\wwwroot\\",
       "BasePath": "_content/EchoBot2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "e:\\ProyectoDnD\\ChatBot\\EchoBot2\\wwwroot\\default.html",
+      "Identity": "E:\\ProyectoDnD\\ChatBot\\EchoBot2\\wwwroot\\default.html",
       "SourceId": "EchoBot2",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\ProyectoDnD\\ChatBot\\EchoBot2\\wwwroot\\",
+      "ContentRoot": "E:\\ProyectoDnD\\ChatBot\\EchoBot2\\wwwroot\\",
       "BasePath": "_content/EchoBot2",
       "RelativePath": "default.html",
       "AssetKind": "All",

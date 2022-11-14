@@ -19,7 +19,7 @@
     "EchoBot2": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://botenrique.azurewebsites.net",
+      "applicationUrl": "https://botenrique.azurewebsites.net/api/messages",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
