@@ -47,6 +47,8 @@ namespace EchoBot
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+            }else{
+                app.UseHsts();
             }
 
             app.UseDefaultFiles()
