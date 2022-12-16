@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>
+    </EncryptedPassword>
+    <_PublishTargetUrl>ftps://waws-prod-am2-585.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+    <History>True|2022-12-16T12:50:37.5107782Z;False|2022-12-16T13:47:46.3272681+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App.config">
+      <publishTime>11/15/2022 13:43:37</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>11/10/2022 13:26:33</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>12/16/2022 13:15:04</publishTime>
+    </File>
+    <File Include="DeploymentTemplates/DeployUseExistResourceGroup/parameters-for-template-AzureBot-with-rg.json">
+      <publishTime>11/10/2022 13:26:33</publishTime>
+    </File>
+    <File Include="DeploymentTemplates/DeployUseExistResourceGroup/parameters-for-template-BotApp-with-rg.json">
+      <publishTime>11/10/2022 13:26:33</publishTime>
+    </File>
+    <File Include="DeploymentTemplates/DeployUseExistResourceGroup/template-AzureBot-with-rg.json">
+      <publishTime>11/10/2022 13:26:33</publishTime>
+    </File>
+    <File Include="DeploymentTemplates/DeployUseExistResourceGroup/template-BotApp-with-rg.json">
+      <publishTime>11/10/2022 13:26:33</publishTime>
+    </File>
+    <File Include="DeploymentTemplates/DeployWithNewResourceGroup/parameters-for-template-AzureBot-new-rg.json">
+      <publishTime>11/10/2022 13:26:33</publishTime>
+    </File>
+    <File Include="DeploymentTemplates/DeployWithNewResourceGroup/parameters-for-template-BotApp-new-rg.json">
+      <publishTime>11/10/2022 13:26:33</publishTime>
+    </File>
+    <File Include="DeploymentTemplates/DeployWithNewResourceGroup/template-AzureBot-new-rg.json">
+      <publishTime>11/10/2022 13:26:33</publishTime>
+    </File>
+    <File Include="DeploymentTemplates/DeployWithNewResourceGroup/template-BotApp-new-rg.json">
+      <publishTime>11/10/2022 13:26:33</publishTime>
+    </File>
+    <File Include="EchoBot2.deps.json">
+      <publishTime>12/16/2022 13:49:56</publishTime>
+    </File>
+    <File Include="EchoBot2.dll">
+      <publishTime>12/16/2022 13:49:55</publishTime>
+    </File>
+    <File Include="EchoBot2.dll.config">
+      <publishTime>11/15/2022 13:43:37</publishTime>
+    </File>
+    <File Include="EchoBot2.exe">
+      <publishTime>12/16/2022 13:49:55</publishTime>
+    </File>
+    <File Include="EchoBot2.pdb">
+      <publishTime>12/16/2022 13:49:55</publishTime>
+    </File>
+    <File Include="EchoBot2.runtimeconfig.json">
+      <publishTime>12/16/2022 13:34:57</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.JsonPatch.dll">
+      <publishTime>12/16/2019 03:04:44</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll">
+      <publishTime>12/16/2019 03:17:30</publishTime>
+    </File>
+    <File Include="Microsoft.Azure.Services.AppAuthentication.dll">
+      <publishTime>02/08/2021 19:59:40</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.dll">
+      <publishTime>08/03/2022 20:30:30</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.Integration.AspNet.Core.dll">
+      <publishTime>08/03/2022 20:30:28</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Configuration.dll">
+      <publishTime>08/03/2022 20:30:28</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Connector.dll">
+      <publishTime>08/03/2022 20:30:28</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Connector.Streaming.dll">
+      <publishTime>08/03/2022 20:30:28</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Schema.dll">
+      <publishTime>08/03/2022 20:30:28</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Streaming.dll">
+      <publishTime>08/03/2022 20:30:50</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>10/20/2021 19:14:50</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <publishTime>11/02/2019 04:35:36</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/19/2019 01:39:24</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>10/19/2019 01:40:20</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>10/19/2019 01:41:02</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>10/19/2019 01:48:48</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>10/19/2019 01:43:40</publishTime>
+    </File>
+    <File Include="Microsoft.Rest.ClientRuntime.dll">
+      <publishTime>11/20/2019 20:16:52</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.Bson.dll">
+      <publishTime>11/28/2018 00:10:18</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/17/2021 21:03:36</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>10/19/2019 01:38:18</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>12/16/2022 13:50:07</publishTime>
+    </File>
+    <File Include="wwwroot/default.html">
+      <publishTime>11/14/2022 13:44:11</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

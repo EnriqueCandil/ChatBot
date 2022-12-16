@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "8zhts6S4uEUw7sGnv6+9a//f5jsZbjdQ8qEpfQjvQM4=",
+  "Source": "EchoBot2",
+  "BasePath": "_content/EchoBot2",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EchoBot2\\wwwroot",
+      "Source": "EchoBot2",
+      "ContentRoot": "E:\\ProyectoDnD\\ChatBot\\EchoBot2\\wwwroot\\",
+      "BasePath": "_content/EchoBot2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\ProyectoDnD\\ChatBot\\EchoBot2\\wwwroot\\default.html",
+      "SourceId": "EchoBot2",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ProyectoDnD\\ChatBot\\EchoBot2\\wwwroot\\",
+      "BasePath": "_content/EchoBot2",
+      "RelativePath": "default.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.html"
+    }
+  ]
+}
