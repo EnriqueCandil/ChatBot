@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "https://botenrique.azurewebsites.net/api/messages",
+      "applicationUrl": "https://enriquepracticaschatbot.azurewebsites.net/api/messages",
       "sslPort": 0
     }
   },
@@ -19,7 +19,7 @@
     "EchoBot2": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://botenrique.azurewebsites.net/api/messages",
+      "applicationUrl": "https://enriquepracticaschatbot.azurewebsites.net/api/messages",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
