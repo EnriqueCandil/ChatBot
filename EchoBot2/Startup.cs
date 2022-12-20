@@ -53,6 +53,7 @@ namespace EchoBot
 
             app.UseDefaultFiles()
                 .UseStaticFiles()
+                .UseBotFramework()
                 .UseWebSockets()
                 .UseRouting()
                 .UseAuthorization()

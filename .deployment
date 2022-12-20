@@ -1,2 +1,2 @@
 [config]
-SCM_SCRIPT_GENERATOR_ARGS=--aspNetCore "./EchoBot2.csproj"
+SCM_SCRIPT_GENERATOR_ARGS=--aspNetCore "./EchoBot2/EchoBot2.csproj"
